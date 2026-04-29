@@ -2,5 +2,15 @@
 
 let Username = "Anish";
 let year = 2026;
-let age = "15";
-let money = "20";
+let age = 15;
+let money = 20;
+
+/********************************
+ Main code
+ ********************************/
+
+console.log("Hi "+ Userna)
+
+/********************************
+ Functions
+ ********************************/ 
