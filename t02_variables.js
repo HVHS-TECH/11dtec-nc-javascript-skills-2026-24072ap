@@ -9,7 +9,7 @@ let money = 20;
  Main code
  ********************************/
 
-console.log("Hi "+ Userna)
+console.log("hi "+ Username + " as of " +  + " years old. You have " + money + "dollars ")
 
 /********************************
  Functions
