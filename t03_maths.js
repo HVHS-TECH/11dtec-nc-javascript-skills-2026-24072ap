@@ -20,7 +20,7 @@ halfMoney = money / 2;
 
 console.log("hi "+ Username + " as of " +  + " years old. You have " + money + "dollars ")
 console.log("You were born in " + birthyear)
-console.log("In 10 years you will be " + oldAge + "years old")
+console.log("In 10 years you will be " + oldAge + " years old")
 console.log("You have " + money + " dollars")
 console.log( "You spent half of your money, now you have " + halfMoney)
 console.log("Then you get $3, now you have" + halfMoney + 3 + " dollars")
