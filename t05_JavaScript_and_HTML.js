@@ -25,6 +25,8 @@ halfMoney = money / 2;
  const OUTPUT = document.getElementById("JavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>"
 
+OUTPUT
+
 console.log("hi "+ Username + " as of " +  + " years old. You have " + money + "dollars ")
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldAge + " years old")
