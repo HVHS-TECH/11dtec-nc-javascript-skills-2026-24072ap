@@ -3,6 +3,9 @@
  * maths
  */
 
+console.log
+
+
 //variables
 let Username = "Anish";
 let year = 2026;
