@@ -3,7 +3,7 @@
  * maths
  */
 
-console.log("Running t05_javascriptAndHtml.js")
+console.log("Running t05_JavaScript_and_HTML.js");
 
 
 //variables
