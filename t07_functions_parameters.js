@@ -23,7 +23,7 @@ halfMoney = money / 2;
  Main code
  ********************************/
 
- const OUTPUT = document.getElementById("JavaScriptOutput");
+ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
 OUTPUT.innerHTML += ("<p>Hi " + Username + "</p>");
@@ -42,3 +42,11 @@ function writeLine(){
 
     OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
+
+function displayWelcome(_name, _age){
+    OUTPUT.innerHTML +="<p>Welcome to the page " +_name+"</p>";
+    OUTPUT.innerHTML +="<p>You are " +_age+" years old</p>";
+}
+
+displayWelcome("Ms Alice", 16)
+displayWelcome("Mr Bob", 99)
