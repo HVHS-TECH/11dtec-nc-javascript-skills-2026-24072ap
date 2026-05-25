@@ -81,3 +81,11 @@ function getFormInput(){
 
 }
 
+  function calculatePay(_hours){
+
+  }
+
+  let mondayPay = calculatePay(8);
+  let mondayPay = calculatePay(6);
+
+  OUTPUT.innerHTML += "This week's pay"
