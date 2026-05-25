@@ -79,3 +79,5 @@ function getFormInput(){
         OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar homeless kid</p>"
     }
 }
+
+
