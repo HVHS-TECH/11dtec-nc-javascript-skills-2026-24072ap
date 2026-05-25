@@ -78,6 +78,7 @@ function getFormInput(){
     if (pocketMoney <= 3.99){
         OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar homeless kid</p>"
     }
+
 }
 
 
