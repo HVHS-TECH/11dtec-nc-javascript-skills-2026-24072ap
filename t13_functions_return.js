@@ -81,4 +81,3 @@ function getFormInput(){
 
 }
 
-function calculatePay(_hours)
