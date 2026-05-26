@@ -89,7 +89,7 @@ function getFormInput(){
   }
 
   let mondayPay = calculatePay(8);
-  let mondayPay = calculatePay(6);
+  let tuesdayPay = calculatePay(6);
  
 
  
