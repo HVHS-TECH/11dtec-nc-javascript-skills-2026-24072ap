@@ -39,6 +39,9 @@ displayProduct("Chocolate bar", "4")
 displayProduct("Chips", "3")
 displayProduct("Drink", "2.50")
 OUTPUT.innerHTML += "<p>Less code matters</p>"
+  OUTPUT.innerHTML += "This week's pay:<br>";
+  OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
+  OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
  }
 
 
@@ -89,6 +92,5 @@ function getFormInput(){
   let mondayPay = calculatePay(6);
  
 
-  OUTPUT.innerHTML += "This week's pay:<br>";
-  OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-  OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
+ 
+
