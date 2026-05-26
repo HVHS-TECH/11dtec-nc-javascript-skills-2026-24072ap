@@ -85,7 +85,7 @@ function getFormInput(){
 }
 
  function calculatePay(_hours){
- 
+    return _hours * 10;
   }
 
   let mondayPay = calculatePay(8);
