@@ -88,6 +88,6 @@ function getFormInput(){
   let mondayPay = calculatePay(8);
   let mondayPay = calculatePay(6);
 
-  OUTPUT.innerHTML += "This week's pay:<br>"
+  OUTPUT.innerHTML += "This week's pay:<br>";
   OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
   OUTPUT.innerHTML ++ "Tuesday: $"+tuesdayPay+"<br>";
