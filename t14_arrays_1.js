@@ -51,7 +51,7 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
 OUTPUT.innerHTML = classArray;
 
 let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
-OUTPUT.innerHTML = "The fifth person in the class is "+classArray[4];
+OUTPUT.innerHTML = "The fifth person in the class is "+ classArray[4];
 
  }
 
