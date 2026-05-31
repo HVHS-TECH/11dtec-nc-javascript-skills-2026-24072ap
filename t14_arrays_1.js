@@ -48,7 +48,7 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
   OUTPUT.innerHTML = classArray;
 
-let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
+
 OUTPUT.innerHTML = "The fifth person in the class is "+ classArray[4];
 
  }
