@@ -46,9 +46,7 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
   let choice = CHOOSE_FIELD.value;
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
-
-  let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
-OUTPUT.innerHTML = classArray;
+  OUTPUT.innerHTML = classArray;
 
 let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
 OUTPUT.innerHTML = "The fifth person in the class is "+ classArray[4];
