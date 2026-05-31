@@ -49,7 +49,7 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML = classArray;
 
 
-OUTPUT.innerHTML = "The fifth person in the class is "+ classArray[4];
+OUTPUT.innerHTML = "The fifth person in the class is "+ classArray[choice];
 
  }
 
