@@ -42,11 +42,15 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML += "This week's pay:<br>";
   OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
   OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
-  
+
   let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
   let choice = CHOOSE_FIELD.value;
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
+
+  let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
 OUTPUT.innerHTML = classArray;
+
+let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
 OUTPUT.innerHTML = "The fifth person in the class is "+classArray[4];
 
  }
