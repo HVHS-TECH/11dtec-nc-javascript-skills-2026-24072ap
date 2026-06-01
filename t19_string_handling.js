@@ -31,8 +31,10 @@ function start(){
 
     var example="   Hello world!   ";
 
-    console.log(example.length);
-    console.log(example.trim());
-    console.log(example.toLowerCase());
+     if(example.match("hello")){
+        console.log("Hello to you too")
+    } else {
+        console.log("Nobody said hello :(")
+    }
 
 }
