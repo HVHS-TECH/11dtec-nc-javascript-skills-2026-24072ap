@@ -78,12 +78,7 @@ function getFormInput(){
 
 }
 
- function calculatePay(_hours){
-    return _hours * 10;
-  }
-
-  let mondayPay = calculatePay(8);
-  let tuesdayPay = calculatePay(6);
+ 
  
 const SHOPPING_FORM = document.getElementById("shoppingForm");
 if (SHOPPING_FORM.checkValidity()=== false){
