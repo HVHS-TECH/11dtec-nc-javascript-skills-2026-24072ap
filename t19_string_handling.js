@@ -29,4 +29,6 @@ function start(){
         let userName = document.getElementById("input_name").value;
         OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
     }
+
+    var example=""
 }
