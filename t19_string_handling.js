@@ -32,7 +32,7 @@ function start(){
 
     var example="   Hello world!   ";
 
-    console.log(example.length);        =>18
-    console.log(example.trim());          =>"Hello world!"
-    console.log(example.toLowerCase());   =>"   hello world!   "
+    console.log(example.length);        
+    console.log(example.trim());          
+    console.log(example.toLowerCase());  
 }
