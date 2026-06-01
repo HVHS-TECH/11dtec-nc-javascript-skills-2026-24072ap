@@ -19,4 +19,6 @@ if (SHOPPING_FORM.checkValidity()=== false){
     let userName = document.getElementById("input_name").value;
     OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 }
+
+if (AGE_FIELD.value < 13 || AGE_FIELD.value > 99){
 }
