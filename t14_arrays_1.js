@@ -46,7 +46,7 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
   let ordinals = ["first", "second", "third", "fourth", "fifth", "sixth"];
   let choice = CHOOSE_FIELD.value;
-  let studentNumber = oridinals[choice-1];
+  let studentNumber = ordinals[choice];
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
   OUTPUT.innerHTML = classArray;
 
