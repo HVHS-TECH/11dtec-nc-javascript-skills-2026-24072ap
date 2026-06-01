@@ -1,9 +1,3 @@
-/* Paste your code from task 7 here*/
-
-/****************************************
- * maths
- */
-
 console.log("Running t05_JavaScript_and_HTML.js");
 
 
