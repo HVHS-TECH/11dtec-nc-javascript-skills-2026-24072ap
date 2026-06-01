@@ -19,11 +19,4 @@ if (SHOPPING_FORM.checkValidity()=== false){
     let userName = document.getElementById("input_name").value;
     OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 }
-const SHOPPING_FORM = document.getElementById("shoppingForm");
-if (SHOPPING_FORM.checkValidity()=== false){
-    OUTPUT.innerHTML += "Please fill out all fields correctly. <br>";
-} else {
-//process form normally...
 }
-
- }
