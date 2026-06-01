@@ -30,8 +30,9 @@ function start(){
         OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
     }
 
-    
-
-   
+    console.log("Calculated value for 2 + 2 is "+(2+2));
+    console.log("Concatenated value for 2 + 2 is "+"2"+"2");
+    console.log("Comparison : 6<7 is "+(6<7));
+    console.log("Comparison : six less than 7 in string is "+(6<7));
 
 }
