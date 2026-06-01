@@ -32,7 +32,7 @@ function start(){
 
     var example="   Hello world!   ";
 
- example = example.trim();
+    if(example.match("hello")){
+        console.log
 
-    console.log(example); // Output: "Hello world!"
 }
