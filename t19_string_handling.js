@@ -32,5 +32,7 @@ function start(){
 
     var example="   Hello world!   ";
 
-    console.log("Length of string: "+example.length);
+    console.log(example.length);        =>18
+    console.log(example.trim());          =>"Hello world!"
+    console.log(example.toLowerCase());   =>"   hello world!   "
 }
