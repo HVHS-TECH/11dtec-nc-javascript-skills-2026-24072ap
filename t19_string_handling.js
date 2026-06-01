@@ -29,4 +29,10 @@ function start(){
     console.log("Comparison : 6<7 is "+(6<7));
     console.log("Comparison : six less than 7 in string is "+"6"<"7");
 
+    var example="   Hello world!   ";
+
+    console.log(example.length);
+    console.log(example.trim());
+    console.log(example.toLowerCase());
+
 }
