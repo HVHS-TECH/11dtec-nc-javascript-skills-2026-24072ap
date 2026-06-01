@@ -30,5 +30,7 @@ function start(){
         OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
     }
 
-    var example=""
+    var example="   Hello world!   ";
+
+    console.log("Length of string: "+example.length);
 }
