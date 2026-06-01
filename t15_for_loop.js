@@ -28,28 +28,13 @@ halfMoney = money / 2;
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
  function start(){
-OUTPUT.innerHTML += ("<p>Hi " + Username + "</p>");
-OUTPUT.innerHTML += ("<p>As of " + year + " you are " + age + " years old" + "</p>");
-OUTPUT.innerHTML += ("<p>You were born in " + (year - age) + "</p>");
-OUTPUT.innerHTML += ("<p>In 10 years you will be " + newAge + " years old" + "</p>");
-OUTPUT.innerHTML += ("<p>You have " + pocketMoney + " dollars" + "</p>" );
-OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + "</p>" );
-OUTPUT.innerHTML += ("<p>Then you get $3, now you have " + (halfMoney + 3) + "</p>" );
-displayProduct("Chocolate bar", "4")
-displayProduct("Chips", "3")
-displayProduct("Drink", "2.50")
-OUTPUT.innerHTML += "<p>Less code matters</p>"
-  OUTPUT.innerHTML += "This week's pay:<br>";
-  OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
-  OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
-
-  let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
-  let choice = CHOOSE_FIELD.value;
-  OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
-  OUTPUT.innerHTML = classArray;
-
-
-OUTPUT.innerHTML = "The " + choice + " person in the class is "+ classArray[choice];
+const SHOPPING_FORM = document.getElementById("welcomeForm");
+if (SHOPPING_FORM.checkValidity()=== false){
+    OUTPUT.innerHTML += "Please fill out all fields correctly. <br>";
+} else {
+    let userName = document.getElementById("input_name").value;
+    OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
+}
 
  }
 
