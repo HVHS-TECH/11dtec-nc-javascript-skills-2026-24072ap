@@ -20,5 +20,11 @@ if (SHOPPING_FORM.checkValidity()=== false){
     OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 }
 
+if AGE_FIELD.value > 13 && AGE_FIELD.value < 99 {
+    OUTPUT.innerHTML = "You're a good age<br>";
+}
+
 if (AGE_FIELD.value < 13 || AGE_FIELD.value > 99){
+    OUTPUT.innerHTML = "You're not a good age<br>";
+}
 }
