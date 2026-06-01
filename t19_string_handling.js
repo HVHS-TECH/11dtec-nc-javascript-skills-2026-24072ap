@@ -33,6 +33,9 @@ function start(){
     var example="   Hello world!   ";
 
     if(example.match("hello")){
-        console.log
+        console.log("Hello to you too")
+    } else {
+        console.log("Nobody said hello :(")
+    }
 
 }
