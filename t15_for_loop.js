@@ -13,11 +13,11 @@ console.log("Running t05_JavaScript_and_HTML.js");
 
 function start(){
 const SHOPPING_FORM = document.getElementById("welcomeForm");
-if (document.forms[0].AGE_FIELD.value > 13 && AGE_FIELD.value < 99) {
+if (AGE_FIELD.value > 13 && AGE_FIELD.value < 99) {
     OUTPUT.innerHTML = "You're a good age<br>";
 }
 
-if (document.forms[0].AGE_FIELD.value < 13 || document.forms[0].AGE_FIELD.value > 99){
+if (AGE_FIELD.value < 13 || AGE_FIELD.value > 99){
     OUTPUT.innerHTML = "You're not a good age<br>";
 }
 if (SHOPPING_FORM.checkValidity()=== false){
