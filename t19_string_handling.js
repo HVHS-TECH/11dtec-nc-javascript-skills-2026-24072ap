@@ -30,12 +30,8 @@ function start(){
         OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
     }
 
-    var example="   Hello world!   ";
+    
 
-    if(example.match("hello")){
-        console.log("Hello to you too")
-    } else {
-        console.log("Nobody said hello :(")
-    }
+   
 
 }
