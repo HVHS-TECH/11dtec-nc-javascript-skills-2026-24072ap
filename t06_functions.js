@@ -25,7 +25,7 @@ halfMoney = money / 2;
 
  const OUTPUT = document.getElementById("JavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
-
+OUTPUT.innerHTML += ("<p>Welcome " + "to " + "the " + "shop </p>");
 OUTPUT.innerHTML += ("<p>Hi " + Username + "</p>");
 OUTPUT.innerHTML += ("<p>As of " + year + " you are " + age + " years old" + "</p>");
 OUTPUT.innerHTML += ("<p>You were born in " + (year - age) + "</p>");
