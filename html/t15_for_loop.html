@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>T15-for loop</title>
+  <title>T13-functions return</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,15 +16,22 @@
 **************************************************************-->
 
 <body>
-  <h1>T15-for loop</h1>
+  <h1>T13-functions with return values</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
-  <form id="welcomeForm" onsubmit="return false;">
-  <label for="formAge">Name:</label><br/>
-<input type="text" id="input_name" required><br/>
-    <label for="formAge">Age:</label><br/>
-    <input type="number" id="AGE_FIELD" min="13" max="99"><br/><br/>
-    <input type="submit" onClick=start()>
-    </form></i><br><br><br><br></p>
+
+ <button onClick="start()">START</button>
+
+  <p><br><br><i>  <form onsubmit="return false;">
+    <label for="formAge">Age:</label><br>
+    <input type="number" id="ageField" name="formAge"><br>
+    <input type="submit" onClick=getFormInput()>
+  </form>
+
+  <form onsubmit="return false;">
+    <label for="formMoney">Pocket Money:</label><br>
+    <input type="number" id="moneyField" name="formMoney"><br>
+    <input type="submit" onClick=getFormInput()>
+  </form></i><br><br><br><br></p>
 
   <div id="spaceForJavaScriptOutput">
 
@@ -34,11 +41,12 @@
 
 
 
+
   <script src="../t15_for_loop.js"></script>
 
 </body>
 
 </html>
 <!--*************************************************************
-  END OF T15_FOR_LOOP.HTML
-**************************************************************-->
+  END OF T13_FUNCTIONS_RETURN.HTML
+*****************************
