@@ -33,6 +33,10 @@ OUTPUT.innerHTML += ("<p>In 10 years you will be " + newAge + " years old" + "</
 OUTPUT.innerHTML += ("<p>You have " + pocketMoney + " dollars" + "</p>" );
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + "</p>" );
 OUTPUT.innerHTML += ("<p>Then you get $3, now you have " + (halfMoney + 3) + "</p>" );
+displayProduct("Chocolate bar", "4")
+displayProduct("Chips", "3")
+displayProduct("Drink", "2.50")
+
 writeLine()
 
 /********************************
