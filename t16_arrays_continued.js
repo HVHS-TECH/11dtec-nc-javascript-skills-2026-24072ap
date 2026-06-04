@@ -19,7 +19,7 @@
   }
 
 function getListFormInput(){
-  const SHOPPING_FIELD
+  const SHOPPING_FIELD = document.getElementById("shopping_Field")
 }
 
 
