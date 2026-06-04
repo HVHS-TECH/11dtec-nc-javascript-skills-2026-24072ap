@@ -3,6 +3,8 @@
  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
+
+ 
  function start(){
 
   let userShopping = Number(document.getElementById(SHOPPING_FIELD).value);
