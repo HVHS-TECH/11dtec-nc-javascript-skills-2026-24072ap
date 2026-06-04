@@ -5,7 +5,7 @@
 
  function start(){
  
- for(let i=0; i<classArray.length; i++){
+ for(let i=99; i>0, i--){
 
     OUTPUT.innerHTML += "Person "+ i +": "+classArray[i]+"<br>";
 
