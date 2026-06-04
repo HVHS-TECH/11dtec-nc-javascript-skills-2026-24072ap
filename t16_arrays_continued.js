@@ -5,7 +5,10 @@
 
  function start(){
 
-  shoppingArray.push(userShopping);
+  let userShopping = Number(document.getElementById(SHOPPING_FIELD).value);
+
+  let shoppingArray = {"Chocolate bar", "Chips", "Drink"};
+
  
  for(let i=0; shoppingArray.length; i++){
 
