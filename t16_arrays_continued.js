@@ -9,9 +9,7 @@
 
   let userShopping = Number(document.getElementById(SHOPPING_FIELD).value);
 
-  let shoppingArray = {"Chocolate bar", "Chips", "Drink"};
 
- 
  for(let i=0; shoppingArray.length; i++){
 
     OUTPUT.innerHTML += "<p>" + "Number " + (i + i) + ": "+ shoppingArray[i] + "</p>";
@@ -20,6 +18,7 @@
 
 function getListFormInput(){
   const SHOPPING_FIELD = document.getElementById("shopping_Field")
+  item = SHOPPING_FIELD.value; 
 }
 
 
