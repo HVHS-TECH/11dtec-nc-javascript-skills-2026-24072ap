@@ -4,11 +4,18 @@
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
  function start(){
- 
- for(let i=99; i>0, i--){
 
-    OUTPUT.innerHTML += "Person "+ i +": "+classArray[i]+"<br>";
+  shoppingArray.push(userShopping);
+ 
+ for(let i=0; shoppingArray.length; i++){
+
+    OUTPUT.innerHTML += "<p>" + "Number " + (i + i) + ": "+ shoppingArray[i] + "</p>";
 
   }
+
+function getListFormInput(){
+  const SHOPPING_FIELD
+}
+
 
  }
