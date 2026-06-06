@@ -17,9 +17,9 @@ console.log("Running t16_arrays_continued.js");
 
   let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
   let shoppingChoice = SHOPPING_FIELD.value;
+  shoppingArray.push(shoppingChoice);
   OUTPUT.innerHTML += "You have added: "+shoppingChoice+ "  to the list "+"<br>";
 
-OUTPUT.innerHTML = "The " + studentNumber + " message is "+ classArray[choice];
 
  for(let i=0; i<shoppingArray.length; i++){
     OUTPUT.innerHTML += shoppingArray[i] + "<br>";
