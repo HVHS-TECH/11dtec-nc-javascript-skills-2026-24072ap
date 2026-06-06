@@ -9,6 +9,7 @@ console.log("Running t16_arrays_continued.js");
  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
+ 
 
  
  function start(){
