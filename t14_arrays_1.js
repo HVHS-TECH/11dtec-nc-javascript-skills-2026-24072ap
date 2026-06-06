@@ -43,8 +43,8 @@ OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
   OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
 
-  let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
-  let ordinals = ["first", "second", "third", "fourth", "fifth", "sixth"];
+  let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
+  let ordinals = ["first", "second", "third", "fourth"];
   let choice = CHOOSE_FIELD.value;
   let studentNumber = ordinals[choice];
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
