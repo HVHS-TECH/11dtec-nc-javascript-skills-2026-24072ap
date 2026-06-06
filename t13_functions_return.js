@@ -38,11 +38,12 @@ OUTPUT.innerHTML += ("<p>Then you get $3, now you have " + (halfMoney + 3) + "</
 displayProduct("Chocolate bar", "4");
 displayProduct("Chips", "3");
 displayProduct("Drink", "2.50");
-var change = calculateChange (pocketMoney, 5);
+var change = calculateChange (pocketMoney, 4);
 OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML += "This week's pay:<br>";
   OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
   OUTPUT.innerHTML += "Tuesday: $"+tuesdayPay+"<br>";
+  OUTPUT.innerHTML += "If you buy a chocolate bar, you will have $"+change+" left<br>";
  }
 
 
