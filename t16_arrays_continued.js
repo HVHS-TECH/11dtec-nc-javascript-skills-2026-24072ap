@@ -21,6 +21,7 @@ console.log("Running t16_arrays_continued.js");
 
 OUTPUT.innerHTML = "The " + studentNumber + " message is "+ classArray[choice];
 
- 
-
+ for(let i=0; i<shoppingArray.length; i++){
+    OUTPUT.innerHTML += shoppingArray[i] + "<br>";
  }
+}
