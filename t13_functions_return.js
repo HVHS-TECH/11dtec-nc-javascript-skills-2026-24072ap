@@ -63,6 +63,10 @@ function getFormInput(){
 } 
     */
 
+function calculateChange(_money, _price){
+    return _money - _price;
+}
+
 function getFormInput(){
     let userAge = Number(document.getElementById("ageField").value);
         let userMoney = Number(document.getElementById("moneyField").value);
