@@ -20,7 +20,9 @@ console.log("Running t16_arrays_continued.js");
   let studentNumber = ordinals[choice];
   OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
   OUTPUT.innerHTML = classArray;
-
+  let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
+  let shoppingChoice = SHOPPING_FIELD.value;
+  OUTPUT.innerHTML += "You have added: "+shoppingArray[shoppingChoice]+ " which costs $"+priceArray[shoppingChoice]+"<br>";
 
 OUTPUT.innerHTML = "The " + studentNumber + " message is "+ classArray[choice];
 
