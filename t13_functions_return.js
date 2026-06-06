@@ -28,7 +28,7 @@ halfMoney = money / 2;
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
 
  function start(){
-OUTPUT.innerHTML += ("<p>Hi " + Username + "</p>");
+OUTPUT.innerHTML += ("<p>Hiya " + Username + "</p>");
 OUTPUT.innerHTML += ("<p>As of " + year + " you are " + age + " years old" + "</p>");
 OUTPUT.innerHTML += ("<p>You were born in " + (year - age) + "</p>");
 OUTPUT.innerHTML += ("<p>In 10 years you will be " + newAge + " years old" + "</p>");
