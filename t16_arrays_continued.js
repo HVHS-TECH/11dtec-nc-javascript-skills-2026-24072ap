@@ -14,12 +14,7 @@ console.log("Running t16_arrays_continued.js");
  
  function start(){
 
-  let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
-  let ordinals = ["first", "second", "third", "fourth"];
-  let choice = CHOOSE_FIELD.value;
-  let studentNumber = ordinals[choice];
-  OUTPUT.innerHTML = "You chose: "+classArray[choice]+ "<br>";
-  OUTPUT.innerHTML = classArray;
+
   let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
   let shoppingChoice = SHOPPING_FIELD.value;
   OUTPUT.innerHTML += "You have added: "+shoppingChoice+ "  to the list "+"<br>";
