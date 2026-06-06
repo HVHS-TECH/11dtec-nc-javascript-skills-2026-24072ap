@@ -38,7 +38,7 @@ OUTPUT.innerHTML += ("<p>Then you get $3, now you have " + (halfMoney + 3) + "</
 displayProduct("Chocolate bar", "4");
 displayProduct("Chips", "3");
 displayProduct("Drink", "2.50");
-var change = calculateChange (11, 5);
+var change = calculateChange (pocketMoney, 5);
 OUTPUT.innerHTML += "<p>Less code matters</p>"
   OUTPUT.innerHTML += "This week's pay:<br>";
   OUTPUT.innerHTML += "Monday: $"+mondayPay+"<br>";
