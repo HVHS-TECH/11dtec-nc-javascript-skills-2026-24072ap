@@ -8,17 +8,17 @@ console.log("Running t16_arrays_continued.js");
  
  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  OUTPUT.innerHTML = "<h2>Added by Javascript</h2>";
-
+let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
  
 
  
  function start(){
 
 
-  let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
+  
   let shoppingChoice = SHOPPING_FIELD.value;
   shoppingArray.push(shoppingChoice);
-  OUTPUT.innerHTML += "You have added: "+shoppingChoice+ "  to the list "+"<br>";
+  OUTPUT.innerHTML += "You have added: "+shoppingChoice+ "  to the list "+"<br> <br> <br><br>";
 
 }
 
