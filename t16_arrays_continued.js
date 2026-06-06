@@ -20,8 +20,11 @@ console.log("Running t16_arrays_continued.js");
   shoppingArray.push(shoppingChoice);
   OUTPUT.innerHTML += "You have added: "+shoppingChoice+ "  to the list "+"<br>";
 
-
- for(let i=0; i<shoppingArray.length; i++){
-    OUTPUT.innerHTML += shoppingArray[i] + "<br>";
- }
 }
+
+function secondButtonClick(){
+  OUTPUT.innerHTML += "These are the items on your shopping list:<br>";
+  for(let i=0; i<shoppingArray.length; i++){
+    OUTPUT.innerHTML += shoppingArray[i] + "<br>";
+  }
+ }
